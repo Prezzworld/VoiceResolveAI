@@ -6,7 +6,8 @@ const transactionSchema = mongoose.Schema({
   accountBalance: { type: Number, required: true, default: 0 },
   transactionId: { type: String, required: true, unique: true },
   amount: { type: Number, required: true },
-  bankName: { type: String, required: true },
+  senderBank: { type: String, required: true },
+  destinationBank: { type: String, required: true },
   status: {
     type: String,
     enum: ["FAILED", "SUCCESSFUL", "REFUNDED"],
