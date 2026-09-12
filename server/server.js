@@ -2,6 +2,7 @@ const express = require("express")
 const mongoose = require("mongoose")
 const cors = require("cors")
 const dns = require("dns")
+const webhookRoutes = require("./routes/webhookRoutes");
 require("dotenv").config();
 
 const ledgerRoutes = require("./routes/ledgerRoutes")
@@ -14,6 +15,7 @@ app.use(express.json())
 app.use(cors())
 
 app.use("/voiceResolveAI/api/v1/ledger", ledgerRoutes);
+app.use("/voiceResolveAI/api/v1/webhook", webhookRoutes);
 
 const PORT = process.env.PORT || 5000
 const MONGO_URI = process.env.MONGO_URI
