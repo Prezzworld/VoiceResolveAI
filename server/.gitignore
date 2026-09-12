@@ -1,1 +1,6 @@
 .env
+node_modules/
+audio/
+npm-debug.log*
+dist/
+build/
