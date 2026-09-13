@@ -1,0 +1,26 @@
+[
+  {
+    "clip": "igbo1",
+    "groundTruth": "Please, gịnị ka ana kpọ ya na Igbo?",
+    "sahara": "Leave",
+    "assemblyai": "Kwa hivyo, kwa hivyo."
+  },
+  {
+    "clip": "igbo2",
+    "groundTruth": "Upon everything we have shouted on this internet; for where, get sense, for where onye Igbo kpọ gị na phone osu kwara gị English.",
+    "sahara": "Upon everything we have shouted on this Internet, for where get sense, for where English.",
+    "assemblyai": "Upon everything we have shouted on this internet for where get sense for where. Onyibo ogena fono sobran English."
+  },
+  {
+    "clip": "pidgin1",
+    "groundTruth": "dem been no show face. Now people come outside on top twitter dey talk say, Does that state have a government at all?",
+    "sahara": "They may not show face. Now people come outside on talk Twitter, they talk, say does that state have a government at all?",
+    "assemblyai": "They may not show face. Now people come outside on top Twitter, they talk, say, does that state have a government at all?"
+  },
+  {
+    "clip": "pidgin2",
+    "groundTruth": "But dem don change am because everybody dey try find common ground. Di truth be say",
+    "sahara": "But they dont change that because everybody, they try to find common ground. The truth be say",
+    "assemblyai": "But they don't change them because everybody, they try find common ground. The truth be say"
+  }
+]
