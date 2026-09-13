@@ -42,6 +42,10 @@ See [`BENCHMARK_REPORT.md`](./BENCHMARK_REPORT.md) for a comparison of Sahara vs
 ## Setup
 
 ```bash
+cd server
+```
+
+```bash
 npm install
 ```
 
